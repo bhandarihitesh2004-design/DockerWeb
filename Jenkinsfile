@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('BuiClone Repository') {
+        stage('Clone Repository') {
             steps {
                 git 'git@github.com:bhandarihitesh2004-design/DockerWeb.git'
             }
